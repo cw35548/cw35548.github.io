@@ -3035,7 +3035,7 @@ img.rounded {
 .nk-navbar {
     position: relative;
     padding: 33px 0;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     z-index: 1000;
     transition: .3s background-color;
     will-change: background-color;

@@ -99,21 +99,33 @@
                     </a>
 
 
-                    <ul class="nk-nav nk-nav-right nk-nav-icons">
+                    <ul class="nk-nav nk-nav-right hidden-md-down" style="font-family: bold;" data-nav-mobile="#nk-nav-mobile">
 
-
-
-                        <li class="single-icon">
-                            <a href="#" data-nav-toggle="#nk-side">
-                                <span class="nk-icon-burger">
-                                    <span class="nk-t-1"></span>
-                                    <span class="nk-t-2"></span>
-                                    <span class="nk-t-3"></span>
-                                </span>
-                            </a>
+                        <li>
+                            <a href="index.html">
+                                 Work
+                
+                             </a>                           
+                            
                         </li>
 
-                    </ul>
+
+                        <li>
+                            <a href="about.html">
+                                 About
+                
+                             </a>                           
+                            
+                        </li>
+
+
+                        <li>
+                            <a href="assets/document/resume.pdf" target="_blank">Resume                
+                             </a>                           
+                            
+                        </li>
+
+                    </ul>                    
                 </div>
             </div>
         </nav>
@@ -122,73 +134,51 @@
     </header>
 
 
-
-
-
     <!--
-    START: Right Navbar
+    START: Navbar Mobile
 
     Additional Classes:
-        .nk-navbar-right-side
-        .nk-navbar-left-side
-        .nk-navbar-lg
         .nk-navbar-align-center
         .nk-navbar-align-right
-        .nk-navbar-overlay-content
 -->
-
-
-
-    <nav class="nk-navbar nk-navbar-side nk-navbar-right-side nk-navbar-lg nk-navbar-align-left nk-navbar-overlay-content" id="nk-side">
-
+    <nav class="nk-navbar nk-navbar-full nk-navbar-align-center" id="nk-nav-mobile">
         <div class="nk-navbar-bg">
             <div class="bg-image" style="background-image: url('assets/images/bg-menu.jpg')"></div>
         </div>
+        <div class="nk-nav-table">
+            <div class="nk-nav-row">
+                <div class="container">
+                    <div class="nk-nav-header">
 
+                        <div class="nk-nav-logo">
+                            <a href="index.html" class="nk-nav-logo">
+                                <img src="assets/images/logo-light.svg" alt="" width="85">
+                            </a>
+                        </div>
 
-        <!-- Close Icon -->
-        <span class="nk-navbar-side-close" data-nav-toggle="#nk-side">
-            <span class="nk-icon-close"></span>
-        </span>
-
-        <div class="nano">
-            <div class="nano-content">
-                <div class="nk-nav-table">
-                    <div class="nk-nav-row nk-nav-row-full nk-nav-row-center">
-                        <ul class="nk-nav">
-
-                            <li>
-                                <a href="about.html">
-                                  About
-                
-                                 </a>
-                            </li>
-                            <li>
-                                <a href="index.html">
-                                  Work
-                
-                                 </a>
-                            </li>
-
-
-                                                                                    
-                        </ul>
-                    </div>
-                    <div class="nk-nav-row">
-                        <div class="nk-nav-social">
-                            <ul>
-                                <li><a href="https://github.com/cw35548"><i class="fa fa-github"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/codywu/"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="https://angel.co/cody-wu"><i class="fa fa-angellist"></i></a></li>
-                                <li><a href="mailto:codywu@chihchin.com"><i class="fa fa-envelope"></i></a></li>                                
-                            </ul>
+                        <div class="nk-nav-close nk-navbar-full-toggle">
+                            <span class="nk-icon-close"></span>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="nk-nav-row-full nk-nav-row">
+                <div class="nano">
+                    <div class="nano-content">
+                        <div class="nk-nav-table">
+                            <div class="nk-nav-row nk-nav-row-full nk-nav-row-center nk-navbar-mobile-content">
+                                <ul class="nk-nav">
+                                    <!-- Here will be inserted menu from [data-mobile-menu="#nk-nav-mobile"] -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </nav>
-    <!-- END: Right Navbar -->
+    <!-- END: Navbar Mobile -->
 
 
     <div class="nk-main">
@@ -227,7 +217,21 @@
         </div>
 
         <div class="nk-portfolio-content">
-            <img src="assets/images/port/s2.jpg" alt="" class="nk-img-stretch">
+
+            <div class="nk-box bg-white">
+                <div class="container">
+                    <div class="nk-gap-5 mnb-5"></div>
+                    <div class="nk-gap-1"></div>
+                    <div class="nk-gap"></div>
+                    <blockquote class="nk-blockquote-style-1">
+                        <p>On this project, I had a chance to learn about using the JS D3 library while prototyping to more effectively represent and explain data to designers.</p>
+                    </blockquote>
+                    <div class="nk-gap"></div>
+                    <div class="nk-gap-1"></div>
+                    <div class="nk-gap-5 mnb-5"></div>
+                </div>
+            </div>
+
 
             <div class="nk-gap-5 mnt-7"></div>
             <div class="container">
@@ -256,46 +260,6 @@
             </div>
             <div class="nk-gap-5 mnt-7"></div>
             
-            <img src="assets/images/port/s4.jpg" alt="" class="nk-img-stretch">
-
-        <!-- START: Our Team -->
-        <div class="nk-team-block">
-            <div class="nk-team-member  active">
-                <div class="nk-team-member-letter">Sketching</div>
-                <div class="nk-team-member-name">User Scenario</div>
-                <div class="nk-team-member-post">Use hair designer as the example</div>
-                <div class="nk-team-member-bio">The scenario demostrate one of the most common frustration of designers. Company’s CMS and their SMM do little effect on the customer relationship. In the end, they disappoint their customers.</div>
-                <img class="nk-team-member-photo" src="assets/images/port/s3.png" alt="">
-
-            </div>
-            <div class="nk-team-member">
-                <div class="nk-team-member-letter">Mapping</div>
-                <div class="nk-team-member-name">User Journey Map</div>
-                <div class="nk-team-member-post">Identify frustrations through the service. </div>
-                <div class="nk-team-member-bio">test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test.</div>
-                <img class="nk-team-member-photo" src="assets/images/port/s3.png" alt="">
-
-            </div>
-            <div class="nk-team-member">
-                <div class="nk-team-member-letter">Testing</div>
-                <div class="nk-team-member-name">Wireframe</div>
-                <div class="nk-team-member-post">Use home page as the example</div>
-                <div class="nk-team-member-bio">test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test.</div>
-                <img class="nk-team-member-photo" src="assets/images/port/s3.png" alt="">
-
-            </div>
-            <div class="nk-team-member">
-                <div class="nk-team-member-letter">Prototyping</div>
-                <div class="nk-team-member-name">Mockup</div>
-                <div class="nk-team-member-post">Use home page as the example</div>
-                <div class="nk-team-member-bio">test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test.</div>
-                <img class="nk-team-member-photo" src="assets/images/port/s3.png" alt="">
-
-            </div>
-            <div class="clearfix"></div>
-        </div>
-        <!-- END: Our Team -->
-
             <div class="nk-box bg-white">
                 <div class="container">
                     <div class="nk-gap-5 mnb-5"></div>
@@ -309,6 +273,47 @@
                     <div class="nk-gap-5 mnb-5"></div>
                 </div>
             </div>
+
+        <!-- START: Our Team -->
+        <div class="nk-team-block">
+            <div class="nk-team-member  active">
+                <div class="nk-team-member-letter">Interviewing</div>
+                <div class="nk-team-member-name">Persona</div>
+                <div class="nk-team-member-post">Interviewed 29 stakeholders + 87 user surveys at Rich Hair Salon Group</div>
+                <div class="nk-team-member-bio">While building this project, analyzing persona and journey map was the most complicated part. It is because of the unique ecosystem and culture of this industry.</div>
+                <img class="nk-team-member-photo" src="assets/images/port/s2.png" alt="">
+
+            </div>
+            <div class="nk-team-member  active">
+                <div class="nk-team-member-letter">Sketching</div>
+                <div class="nk-team-member-name">User Scenario</div>
+                <div class="nk-team-member-post">Use hair designer as the example</div>
+                <div class="nk-team-member-bio">The scenario demostrate one of the most common frustration of designers. Company’s CMS and their SMM do little effect on the customer relationship. In the end, they disappoint their customers.</div>
+                <img class="nk-team-member-photo" src="assets/images/port/s3.png" alt="">
+
+            </div>
+            <div class="nk-team-member">
+                <div class="nk-team-member-letter">Organizing</div>
+                <div class="nk-team-member-name">Functional Map</div>
+                <div class="nk-team-member-post">Pain Points/ Solutions</div>
+                <div class="nk-team-member-bio">It's very common to have job-hopping in this industry, but designers lost customer data once they leave. Most entry and senior designers pay 30-40% for CMS and SMM, but they feel they pay much more than they gain. Lastly, no system to help them manage clients' preference well.</div>
+                <img class="nk-team-member-photo" src="assets/images/port/s4.png" alt="">
+
+            </div>
+
+            <div class="nk-team-member">
+                <div class="nk-team-member-letter">Testing</div>
+                <div class="nk-team-member-name">Wireframe</div>
+                <div class="nk-team-member-post">Use home page as the example</div>
+                <div class="nk-team-member-bio">test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test.</div>
+                <img class="nk-team-member-photo" src="assets/images/port/s3.png" alt="">
+
+            </div>
+            
+            <div class="clearfix"></div>
+        </div>
+        <!-- END: Our Team -->
+
 
         </div>
 

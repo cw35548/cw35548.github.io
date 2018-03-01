@@ -99,21 +99,34 @@
                     </a>
 
 
-                    <ul class="nk-nav nk-nav-right nk-nav-icons">
+                    <ul class="nk-nav nk-nav-right hidden-md-down" style="font-family: bold;" data-nav-mobile="#nk-nav-mobile">
 
-
-
-                        <li class="single-icon">
-                            <a href="#" data-nav-toggle="#nk-side">
-                                <span class="nk-icon-burger">
-                                    <span class="nk-t-1"></span>
-                                    <span class="nk-t-2"></span>
-                                    <span class="nk-t-3"></span>
-                                </span>
-                            </a>
+                        <li>
+                            <a href="index.html">
+                                 Work
+                
+                             </a>                           
+                            
                         </li>
 
-                    </ul>
+
+                        <li>
+                            <a href="about.html">
+                                 About
+                
+                             </a>                           
+                            
+                        </li>
+
+
+                        <li>
+                            <a href="assets/document/resume.pdf" target="_blank">Resume                
+                
+                             </a>                           
+                            
+                        </li>
+
+                    </ul>                    
                 </div>
             </div>
         </nav>
@@ -122,74 +135,51 @@
     </header>
 
 
-
-
-
     <!--
-    START: Right Navbar
+    START: Navbar Mobile
 
     Additional Classes:
-        .nk-navbar-right-side
-        .nk-navbar-left-side
-        .nk-navbar-lg
         .nk-navbar-align-center
         .nk-navbar-align-right
-        .nk-navbar-overlay-content
 -->
-
-
-
-    <nav class="nk-navbar nk-navbar-side nk-navbar-right-side nk-navbar-lg nk-navbar-align-left nk-navbar-overlay-content" id="nk-side">
-
+    <nav class="nk-navbar nk-navbar-full nk-navbar-align-center" id="nk-nav-mobile">
         <div class="nk-navbar-bg">
             <div class="bg-image" style="background-image: url('assets/images/bg-menu.jpg')"></div>
         </div>
+        <div class="nk-nav-table">
+            <div class="nk-nav-row">
+                <div class="container">
+                    <div class="nk-nav-header">
 
+                        <div class="nk-nav-logo">
+                            <a href="index.html" class="nk-nav-logo">
+                                <img src="assets/images/logo-light.svg" alt="" width="85">
+                            </a>
+                        </div>
 
-        <!-- Close Icon -->
-        <span class="nk-navbar-side-close" data-nav-toggle="#nk-side">
-            <span class="nk-icon-close"></span>
-        </span>
-
-        <div class="nano">
-            <div class="nano-content">
-                <div class="nk-nav-table">
-                    <div class="nk-nav-row nk-nav-row-full nk-nav-row-center">
-                        <ul class="nk-nav">
-
-                            <li>
-                                <a href="about.html">
-                                  About
-                
-                                 </a>
-                            </li>
-                            <li>
-                                <a href="index.html">
-                                  Work
-                
-                                 </a>
-                            </li>
-
-
-                                                                                    
-                        </ul>
-                    </div>
-                    <div class="nk-nav-row">
-                        <div class="nk-nav-social">
-                            <ul>
-                                <li><a href="https://github.com/cw35548"><i class="fa fa-github"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/codywu/"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="https://angel.co/cody-wu"><i class="fa fa-angellist"></i></a></li>
-                                <li><a href="mailto:codywu@chihchin.com"><i class="fa fa-envelope"></i></a></li>
-
-                            </ul>
+                        <div class="nk-nav-close nk-navbar-full-toggle">
+                            <span class="nk-icon-close"></span>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="nk-nav-row-full nk-nav-row">
+                <div class="nano">
+                    <div class="nano-content">
+                        <div class="nk-nav-table">
+                            <div class="nk-nav-row nk-nav-row-full nk-nav-row-center nk-navbar-mobile-content">
+                                <ul class="nk-nav">
+                                    <!-- Here will be inserted menu from [data-mobile-menu="#nk-nav-mobile"] -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </nav>
-    <!-- END: Right Navbar -->
+    <!-- END: Navbar Mobile -->
 
 
 
@@ -200,6 +190,7 @@
         <!-- START: Carousel -->
         <div class="nk-carousel-3 nk-carousel-no-margin nk-carousel-all-visible nk-carousel-arrows-2" data-size="1" data-autoplay="18000" data-arrows="true">
             <div class="nk-carousel-inner">
+                
                 <div>
                     <div style="background-image: url('assets/images/work_slider_1.jpg');">
                         <div class="nk-vertical-center">
@@ -207,33 +198,17 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-lg-6">
-                                            <h2 class="h1 fw-400 lh-50">I'm good at <br>building
-
+                                            <h2 class="h1 fw-400 lh-50">
                                                 <strong>
-                                                    <em>WBS & network diagram.</em>
+                                                    <em>Think . Design . Develop</em>
                                                 </strong>
+                                                <br>
                                             </h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div style="background-image: url('assets/images/work_slider_2.jpg');">
-                        <div class="nk-vertical-center">
-                            <div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <h2 class="h1 fw-400 lh-50">I use
-                                                <strong>
-                                                    <em>Agile methods</em>
-                                                </strong> and good at
-                                                <strong>
-                                                    <em>scheduling & risk analysis</em>
-                                                </strong></h2>
+
+                                            <h4>I build innovative UI/UX & <br>
+                                            motion digital projects</h4>
+
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -248,10 +223,17 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-lg-6">
-                                            <h2 class="h1 fw-400 lh-50">My desk and walls are always full of
+                                            <h2 class="h1 fw-400 lh-50">
                                                 <strong>
-                                                    <em>sketches & stickers</em>
-                                                </strong></h2>
+                                                    <em>Brainstorming</em>
+                                                </strong>
+                                                <br>                                              
+                                            </h2>
+                                            <h4>
+                                                My desk and walls are always full of<br>
+                                                sketches & stickers
+                                            </h4>
+
                                         </div>
                                     </div>
                                 </div>
@@ -260,7 +242,7 @@
                     </div>
                 </div>
                 <div>
-                    <div style="background-image: url('assets/images/work_slider_4.jpg');">
+                    <div style="background-image: url('assets/images/work_slider_2.jpg');">
                         <div class="nk-vertical-center">
                             <div>
                                 <div class="container">
@@ -268,8 +250,42 @@
                                         <div class="col-lg-6">
                                             <h2 class="h1 fw-400 lh-50">
                                                 <strong>
-                                                    <em>wireframing </em> 
-                                                </strong> for better <strong><em>arranging elements</em></strong>
+                                                    <em>Project . Management</em>
+                                                </strong>
+                                                <br>                                              
+                                            </h2>
+                                            <h4>
+                                                I love Agile methods. <br>
+                                                I'm good at scheduling & risk analysis
+                                            </h4>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div style="background-image: url('assets/images/work_slider_4.jpg');">
+                        <div class="nk-vertical-center">
+                            <div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            
+                                            <h2 class="h1 fw-400 lh-50">
+                                                <strong>
+                                                    <em>Wireframe</em>
+                                                </strong>
+                                                <br>                                               
+                                            </h2>
+                                            <h4>
+                                                I use this for better arranging elements &<br>
+                                                efficient communication.
+                                            </h4>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -284,13 +300,15 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-lg-6">
-                                            <h2 class="h1 fw-400 lh-50">My favorite
-                                                <strong>
-                                                    <em>RWD prototyping tool</em>
-                                                </strong>is
+                                            <h2 class="h1 fw-400 lh-50">
                                                 <strong>
                                                     <em>Axure RP</em>
-                                                </strong></h2>
+                                                </strong>
+                                                <br>                                           
+                                            </h2>
+                                            <h4>
+                                                My favorite RWD prototyping tool
+                                            </h4>
                                         </div>
                                     </div>
                                 </div>
@@ -305,11 +323,16 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-lg-6">
-                                            <h2 class="h1 fw-400 lh-50">I also do
+                                             <h2 class="h1 fw-400 lh-50">
                                                 <strong>
-                                                    <em>front-end development</em>
-                                                </strong> for some projects
+                                                    <em>HTML . CSS</em>
+                                                </strong>
+                                                <br>                                             
                                             </h2>
+                                            <h4>
+                                                I also do front-end development for some projects
+                                            </h4>
+
                                         </div>
                                     </div>
                                 </div>
@@ -330,7 +353,7 @@
                     <div class="nk-portfolio-item nk-portfolio-item-sm nk-portfolio-item-info-style-3">
                         <a href="guts.html" class="nk-portfolio-item-link"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/work_cover_1.jpg');"></div>
+                            <div style="background-image: url('assets/images/work_cover_1.gif');"></div>
                         </div>
                         <div class="nk-portfolio-item-info">
                             <div>
@@ -358,27 +381,12 @@
                 </div>
 
 
-                <div class="nk-isotope-item" data-filter="Photography">
-                    <div class="nk-portfolio-item nk-portfolio-item-sm nk-portfolio-item-info-style-3">
-                        <a href="helper.html" class="nk-portfolio-item-link"></a>
-                        <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/work_cover_3.jpg');"></div>
-                        </div>
-                        <div class="nk-portfolio-item-info">
-                            <div>
-                                <h2 class="portfolio-item-title h3">Helper</h2>
-                                <div class="portfolio-item-category">A communication and scheduling tool for eldercare</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
 
                 <div class="nk-isotope-item" data-filter="Design">
                     <div class="nk-portfolio-item nk-portfolio-item-sm nk-portfolio-item-info-style-3">
                         <a href="advanpark.html" class="nk-portfolio-item-link"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/work_cover_4.jpg');"></div>
+                            <div style="background-image: url('assets/images/work_cover_4.gif');"></div>
                         </div>
                         <div class="nk-portfolio-item-info">
                             <div>
@@ -390,11 +398,26 @@
                 </div>
 
 
+                <div class="nk-isotope-item" data-filter="Photography">
+                    <div class="nk-portfolio-item nk-portfolio-item-sm nk-portfolio-item-info-style-3">
+                        <a href="helper.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('assets/images/work_cover_3.gif');"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Helper</h2>
+                                <div class="portfolio-item-category">A communication and scheduling tool for eldercare</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="nk-isotope-item" data-filter="Mockup">
                     <div class="nk-portfolio-item nk-portfolio-item-sm nk-portfolio-item-info-style-3">
                         <a href="gopackup.html" class="nk-portfolio-item-link"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/work_cover_5.jpg');"></div>
+                            <div style="background-image: url('assets/images/work_cover_5.gif');"></div>
                         </div>
                         <div class="nk-portfolio-item-info">
                             <div>
@@ -437,9 +460,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">
-                        <h2 class="h1">What's More</h2>
+                        <h2 class="h1">More About Me</h2>
                         <div class="nk-gap-1 mnt-15"></div>
-                        <p>Hi, my name is (Cody) ChihChin Wu. Thank you for spending time viewing my portfolio. If you would like to know more about my other skills, profession and past experience, please go to the About page for futher information ^____^</p>
+                        <p>Hi, my name is (Cody) ChihChin Wu. Thank you for spending time viewing my portfolio. If you would like to know more about my other skills, profession and past experience, please go to the About page for futher information ^ ◡ ^</p>
                         <div class="nk-gap mnt-9"></div>
                         <a href="about.html" class="nk-btn nk-btn-long">About Cody</a>
                     </div>

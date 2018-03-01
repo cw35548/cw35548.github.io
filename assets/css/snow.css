@@ -425,7 +425,7 @@ html {
 }
 
 body {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Playfair Display", serif;
     line-height: 1.65;
     letter-spacing: 0.004em;
     -webkit-font-smoothing: antialiased;
@@ -433,6 +433,8 @@ body {
 }
 
 p {
+    font-family: "Playfair Display", serif;
+
     margin-bottom: 1.6rem;
 }
 
@@ -4534,7 +4536,7 @@ img.rounded {
 }
 
 .nk-counter-3 .nk-counter-title {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Playfair Display", serif;
     font-weight: normal;
     line-height: 1;
 }
@@ -4879,7 +4881,7 @@ blockquote.nk-blockquote-style-1 > p:after {
 }
 
 blockquote.nk-blockquote-style-1 cite {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Playfair Display", serif;
     font-size: 0.96rem;
     font-weight: 500;
     font-style: normal;
@@ -6576,7 +6578,6 @@ a.active > .nk-icon-search:after {
 .nk-portfolio-list .nk-portfolio-item .portfolio-item-category {
     font-size: 0.95rem;
     line-height: 1;
-    text-transform: uppercase;
     font-weight: 500;
 }
 

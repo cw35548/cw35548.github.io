@@ -6499,7 +6499,7 @@ a.active > .nk-icon-search:after {
     position: relative;
     display: block;
     width: 100%;
-    padding-bottom: 80.34%;
+    padding-bottom: 65%;
     background-position: 50% 50%;
     background-size: cover;
     overflow: hidden;
@@ -6539,10 +6539,7 @@ a.active > .nk-icon-search:after {
     padding-bottom: 67%;
 }
 
-.nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-square div.nk-portfolio-item-image,
-.nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-square a.nk-portfolio-item-image {
-    padding-bottom: 100%;
-}
+
 
 .nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-lg div.nk-portfolio-item-image,
 .nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-lg a.nk-portfolio-item-image {
@@ -6581,6 +6578,11 @@ a.active > .nk-icon-search:after {
     font-weight: 500;
 }
 
+.nk-portfolio-list .nk-portfolio-item .portfolio-item-category-projecttitle {
+    font-size: 1.2rem;
+    line-height: 1;
+    font-weight: 500;
+}
 .nk-portfolio-list .nk-portfolio-item .portfolio-item-icon {
     font-size: 3rem;
 }

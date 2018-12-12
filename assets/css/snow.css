@@ -4861,6 +4861,13 @@ blockquote.nk-blockquote-style-1 {
     margin: 0 auto;
 }
 
+blockquote.nk-blockquote-style-1 {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    max-width: 715px;
+    margin: 0 auto;
+}
 blockquote.nk-blockquote-style-1 > p {
     font-size: 1.685rem;
     line-height: 1.45;
@@ -4881,6 +4888,41 @@ blockquote.nk-blockquote-style-1 > p:after {
 }
 
 blockquote.nk-blockquote-style-1 cite {
+    font-family: "Playfair Display", serif;
+    font-size: 0.96rem;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+
+blockquote.nk-blockquote-style-g {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    max-width: 900px;
+    margin: 0 auto;
+}
+blockquote.nk-blockquote-style-g > p {
+    font-size: 1.385rem;
+    line-height: 1.45;
+    margin-bottom: 1.15rem;
+}
+
+blockquote.nk-blockquote-style-g > p:before, blockquote.nk-blockquote-style-1 > p:after {
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+blockquote.nk-blockquote-style-g > p:before {
+    content: '“ ';
+}
+
+blockquote.nk-blockquote-style-g > p:after {
+    content: ' ”';
+}
+
+blockquote.nk-blockquote-style-g cite {
     font-family: "Playfair Display", serif;
     font-size: 0.96rem;
     font-weight: 500;
@@ -6767,6 +6809,7 @@ a.active > .nk-icon-search:after {
 
 .nk-portfolio-single .nk-portfolio-text + .nk-portfolio-details {
     margin-top: 46px;
+
 }
 
 .nk-portfolio-single .nk-portfolio-text p:last-of-type {
